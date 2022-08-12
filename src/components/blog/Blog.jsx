@@ -13,8 +13,8 @@ const Blog = () => {
       <div className="blog_container grid">
         <div className="blog_card">
           <div className="blog_thumb">
-            <a href="#"><span className="blog_category">Reviews</span></a>
-            <a href="#"><img src={Image1} alt="" className="blog_img" /></a>
+            <a href="#home"><span className="blog_category">Reviews</span></a>
+            <a href="#home"><img src={Image1} alt="" className="blog_img" /></a>
           </div>
           <div className="blog_details">
             <h3 className="blog_title">5 Best App Development Tool for your projects</h3>
@@ -27,8 +27,8 @@ const Blog = () => {
         </div>
         <div className="blog_card">
           <div className="blog_thumb">
-            <a href="#"><span className="blog_category">Tutorial</span></a>
-            <a href="#"><img src={Image2} alt="" className="blog_img" /></a>
+            <a href="#home"><span className="blog_category">Tutorial</span></a>
+            <a href="#home"><img src={Image2} alt="" className="blog_img" /></a>
           </div>
           <div className="blog_details">
             <h3 className="blog_title">Common Missconceptions about Payment</h3>
@@ -41,8 +41,8 @@ const Blog = () => {
         </div>
         <div className="blog_card">
           <div className="blog_thumb">
-            <a href="#"><span className="blog_category">Business</span></a>
-            <a href="#"><img src={Image3} alt="" className="blog_img" /></a>
+            <a href="#home"><span className="blog_category">Business</span></a>
+            <a href="#home"><img src={Image3} alt="" className="blog_img" /></a>
           </div>
           <div className="blog_details">
             <h3 className="blog_title">3 Things to know about Startup Business</h3>
