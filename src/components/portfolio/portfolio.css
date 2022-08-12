@@ -99,3 +99,15 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+
+@media screen and (max-width: 768px) {
+    .work_filters{
+        display: none;
+    }
+    .work_container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: .875rem;
+    }
+}
+

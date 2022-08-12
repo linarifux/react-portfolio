@@ -172,3 +172,29 @@ img {
 .btn:hover {
   animation: button-push 0.3s linear 1;
 }
+
+@media screen and (max-width: 768px) {
+  .section_title {
+    font-size: var(--h1-font-size);
+    text-align: center;
+    margin: 0 auto;
+    font-weight: var(--font-bold);
+    position: relative;
+    margin-bottom: 1.75rem;
+
+  }
+  .section_title::before {
+    left: 3rem;
+  }
+  
+  img{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  .primary_btn{
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+}

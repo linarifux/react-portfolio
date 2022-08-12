@@ -44,3 +44,12 @@
     color: rgb(53, 48, 49);
 }
 
+
+/* Media query */
+
+@media screen and (max-width: 768px) {
+    .services_container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: .875rem;
+    }
+}

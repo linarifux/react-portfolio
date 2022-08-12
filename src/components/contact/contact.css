@@ -48,3 +48,29 @@
 .contact_form_area textarea{
     resize: none;
 }
+
+@media screen and (max-width: 768px) {
+    .contact_container{
+        grid-template-columns: 1fr;
+        gap: .875rem;
+    }
+    .contact_form_group{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+    .contact_form_div{
+        position: relative;
+        margin-bottom: .875rem;
+        height: 3.75rem;
+    }
+    .contact_form_area{
+        height: 15.25rem;
+    }
+
+    .contact_info{
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+}

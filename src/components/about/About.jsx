@@ -13,7 +13,9 @@ const About = () => {
         <div className="about_data grid">
           <div className="about_info">
             <p className="about_description">I am Naimul Islam, full-stack web developer from Dhaka, Bangladesh. I am good at building professional websites and I love coffee.</p>
+            <div className="primary_btn">
             <a href={CV} className="btn" download>Download CV</a>
+            </div>
           </div>
 
           <div className="about_skills grid">

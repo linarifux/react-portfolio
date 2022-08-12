@@ -83,7 +83,6 @@
 
 .about_boxes {
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 20rem;
     margin-top: 4.35rem;
 }
 
@@ -99,4 +98,21 @@
 
 .about_title {
     font-size: 1.875rem;
+}
+
+@media screen and (max-width: 768px) {
+    .about_data {
+        padding: 1.875rem;
+        background-color: var(--container-color);
+        box-shadow: var(--shadow);
+        border-radius: var(--border-radius);
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.875rem;
+        align-items: flex-start;
+        position: relative;
+    }
+    .about_container {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+    }
 }
