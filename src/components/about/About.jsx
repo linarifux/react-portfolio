@@ -12,7 +12,7 @@ const About = () => {
         <img src={AboutImage} alt="" className="about_img" />
         <div className="about_data grid">
           <div className="about_info">
-            <p className="about_description">I am Naimul Islam, full-stack web developer from Dhaka, Bangladesh. I am good at building professional websites and I love coffee.</p>
+            <p className="about_description">I am Naimul Islam, full-stack web developer from Dhaka, Bangladesh. I am good at building professional websites. I use latest technologies and the best tools to build the application. </p>
             <div className="primary_btn">
             <a href={CV} className="btn" download>Download CV</a>
             </div>
@@ -21,7 +21,7 @@ const About = () => {
           <div className="about_skills grid">
             <div className="skills_data">
               <div className="skills_titles">
-                <h3 className="skills_name">Back-End Development</h3>
+                <h3 className="skills_name">Node.js</h3>
                 <span className="skills_number">80%</span>
               </div>
               <div className="skills_bar">
@@ -30,7 +30,16 @@ const About = () => {
             </div>
             <div className="skills_data">
               <div className="skills_titles">
-                <h3 className="skills_name">Front-End Development</h3>
+                <h3 className="skills_name">Express.js</h3>
+                <span className="skills_number">80%</span>
+              </div>
+              <div className="skills_bar">
+                <span className="skills_percentage express"></span>
+              </div>
+            </div>
+            <div className="skills_data">
+              <div className="skills_titles">
+                <h3 className="skills_name">React.js</h3>
                 <span className="skills_number">70%</span>
               </div>
               <div className="skills_bar">
@@ -39,11 +48,29 @@ const About = () => {
             </div>
             <div className="skills_data">
               <div className="skills_titles">
-                <h3 className="skills_name">Dev-Ops</h3>
-                <span className="skills_number">50%</span>
+                <h3 className="skills_name">Redux</h3>
+                <span className="skills_number">70%</span>
+              </div>
+              <div className="skills_bar">
+                <span className="skills_percentage redux"></span>
+              </div>
+            </div>
+            <div className="skills_data">
+              <div className="skills_titles">
+                <h3 className="skills_name">Javascript</h3>
+                <span className="skills_number">80%</span>
               </div>
               <div className="skills_bar">
                 <span className="skills_percentage dev_ops"></span>
+              </div>
+            </div>
+            <div className="skills_data">
+              <div className="skills_titles">
+                <h3 className="skills_name">MongoDB</h3>
+                <span className="skills_number">70%</span>
+              </div>
+              <div className="skills_bar">
+                <span className="skills_percentage mongo-db"></span>
               </div>
             </div>
           </div>

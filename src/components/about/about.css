@@ -71,14 +71,29 @@
     background-color: rgb(255, 209, 92);
 }
 
+.express {
+    width: 85%;
+    background-color: rgb(16, 95, 16);
+}
+
 .front_development {
     width: 70%;
     background-color: rgb(84, 74, 231);
 }
 
+.redux {
+    width: 70%;
+    background-color: rgb(206, 92, 92);
+}
+
 .dev_ops {
-    width: 50%;
+    width: 80%;
     background-color: rgb(60, 148, 114);
+}
+
+.mongo-db {
+    width: 70%;
+    background-color: rgb(29, 83, 43);
 }
 
 .about_boxes {
@@ -86,7 +101,7 @@
     margin-top: 4.35rem;
 }
 
-.about_box{
+.about_box {
     text-align: center;
 }
 
@@ -111,6 +126,7 @@
         align-items: flex-start;
         position: relative;
     }
+
     .about_container {
         grid-template-columns: 1fr;
         column-gap: 0;

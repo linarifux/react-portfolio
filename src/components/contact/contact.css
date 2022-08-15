@@ -74,3 +74,27 @@
     }
     
 }
+
+.success{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background: rgb(93, 184, 123);
+    border-radius: 10px;
+}
+
+.warning{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background: rgb(161, 62, 62);
+    border-radius: 10px;
+}
